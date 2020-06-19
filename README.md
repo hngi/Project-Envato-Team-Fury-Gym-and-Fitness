@@ -15,18 +15,3 @@ Collaboration Instructions:
 8. make a Pull request to the master branch. 
 9. stop there. do not merge your PR *very important
 
-
-Project Structure
-
-root
-├── assets
-│   ├── css
-│   │   ├── portfolio.css
-│   ├── fonts
-│   ├── images
-│   ├── js
-├── .gitignore
-├── index.html
-├──  README.md
-
-
