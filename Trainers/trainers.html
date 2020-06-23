@@ -1,266 +1,389 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
 
-    <!-- Bootstrap CSS -->
-    <script src="https://kit.fontawesome.com/65f1e6a808.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/trainers.css">
+		<!-- Bootstrap CSS -->
+		<script
+			src="https://kit.fontawesome.com/65f1e6a808.js"
+			crossorigin="anonymous"
+		></script>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+			integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="./css/trainers.css" />
 
-    <link rel="stylesheet" href="./css/main.css" />
-	<link rel="stylesheet" href="./css/index.css" />
-    <title>Trainers - FITFAM</title>
-  </head>
-  <header class="header-image">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand text-warning" href="#">Home</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link  text-warning" href="#">About<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link  text-warning" href="#">Classes</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link  text-primary" href="#">Trainers</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link  text-warning" href="#">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link  text-warning" href="#">Contact</a>
-              </li>
+		<link rel="stylesheet" href="./css/main.css" />
+		<link rel="stylesheet" href="../homepage/css/index.css" />
+		<title>Trainers - FITFAM</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__inner">
+				<nav
+					class="navbar navbar-expand-lg navbar-light bg-transparent"
+				>
+					<div class="container d-flex align-items-end">
+						<a class="navbar-brand" href="#">
+							<img
+								width="150"
+								src="../homepage/img/logo.svg"
+								alt="fitfam"
+								loading="lazy"
+							/>
+						</a>
+						<button
+							class="navbar-toggler text-white"
+							type="button"
+							data-toggle="collapse"
+							data-target="#navbarNav"
+							aria-controls="navbarNav"
+							aria-expanded="false"
+							aria-label="Toggle navigation"
+						>
+							<span class="navbar-toggler-icon">
+								<svg
+									aria-label="menu button"
+									viewBox="0 0 20 20"
+									class="text-white"
+									xmlns="http://www.w3.org/2000/svg"
+									fill="#ffffff"
+								>
+									<title>Menu</title>
+									<path
+										d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"
+									/>
+								</svg>
+							</span>
+						</button>
+						<div
+							class="collapse navbar-collapse d-lg-flex justify-content-end bg-gray p-3 p-lg-0"
+							id="navbarNav"
+						>
+							<ul class="navbar-nav">
+								<li class="nav-item nav-item--custom ml-lg-4">
+									<a
+										class="nav-link nav-link--custom"
+										href="../homepage/index.html"
+										>Home
+									</a>
+								</li>
+								<li class="nav-item nav-item--custom ml-lg-4">
+									<a
+										class="nav-link nav-link--custom"
+										href="../about_repo/about.html"
+										>About</a
+									>
+								</li>
+								<li class="nav-item nav-item--custom ml-lg-4">
+									<a
+										class="nav-link nav-link--custom"
+										href="../classes/classes.html"
+										>Classes</a
+									>
+								</li>
+								<li
+									class="nav-item nav-item--custom active ml-lg-4"
+								>
+									<a
+										class="nav-link nav-link--custom"
+										href="../Trainers/trainers.html"
+										>Trainers</a
+									>
+								</li>
+								<li class="nav-item nav-item--custom ml-lg-4">
+									<a
+										class="nav-link nav-link--custom"
+										href="#"
+										>Blog</a
+									>
+								</li>
+								<li class="nav-item nav-item--custom ml-lg-4">
+									<a
+										class="nav-link nav-link--custom"
+										href="../Contact_us/contact.html"
+										>Contact</a
+									>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+				<div>
+					<div class="container">
+						<h1 class="header__title text-white font-weight-bold">
+							Love yourself enough <br />
+							to work harder
+						</h1>
+						<p class="header__subtitle mt-4">
+							Get into that groove
+						</p>
+						<button class="header__button mt-3">
+							start now
+						</button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section class="trainer">
+				<div class="container text-center">
+					<h2 class="py-3">Meet Our Trainers</h2>
+					<p class="p1">We have a team commited to your growth</p>
+					<div class="row">
+						<div class="col-lg-4">
+							<img
+								src="../homepage/img/Fit1.png"
+								class="img-fluid mb-4"
+								alt=""
+							/>
+							<div class="img-text">
+								<h5>Bobby Jones</h5>
+								<small>Cardio Trainer</small>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<img
+								src="../homepage/img/Fit3.png"
+								class="img-fluid mb-4"
+								alt=""
+							/>
+							<h5>Lea TownSend</h5>
+							<small>Crossfit Trainer</small>
+						</div>
+						<div class="col-lg-4">
+							<img
+								src="../homepage/img/fit4.png"
+								class="img-fluid mb-4"
+								alt=""
+							/>
+							<h5>Mark Phillips</h5>
+							<small>Muscle Trainer</small>
+						</div>
+						<div class="col-lg-4">
+							<img
+								src="../homepage/img/Fit2.png"
+								class="img-fluid mb-4"
+								alt=""
+							/>
+							<h5>Sandra White</h5>
+							<small>Yoga Trainer</small>
+						</div>
+						<div class="col-lg-4">
+							<img
+								src="../homepage/img/fit5.png"
+								class="img-fluid mb-4"
+								alt=""
+							/>
+							<h5>Sammuel Tom</h5>
+							<small>Dance Trainer</small>
+						</div>
+						<div class="col-lg-4">
+							<img
+								src="../homepage/img/fit6.png"
+								class="img-fluid mb-4"
+								alt=""
+							/>
+							<h5>Melissa Angryville</h5>
+							<small>Cardio Trainer</small>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
 
-          </ul>
-        </div>
-      </nav>
+		<footer class="footer py-4">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-6 col-lg-3">
+						<p
+							class="text-white mt-5 font-weight-bold footer__heading"
+						>
+							Quick links
+						</p>
+						<ul class="header__list header__list--clean m-0 p-0">
+							<li class="mt-4">
+								<a href="../homepage/index.html">Home</a>
+							</li>
+							<li class="mt-4">
+								<a href="./trainers.html">Trainers</a>
+							</li>
+							<li class="mt-4">
+								<a href="../about_repo/about.html">About</a>
+							</li>
+							<li class="mt-4">
+								<a href="#">Blog</a>
+							</li>
+							<li class="mt-4">
+								<a href="../classes/classes.html">Classes</a>
+							</li>
+							<li class="mt-4">
+								<a href="../Contact_us/contact.html">Contact</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-12 col-md-6 col-lg-3">
+						<p
+							class="text-white mt-5 font-weight-bold footer__heading"
+						>
+							FIND Us
+						</p>
+						<ul
+							class="header__list header__list--clean py-3 d-flex flex-column m-0 p-0"
+						>
+							<li class="mt-4">
+								<a
+									href="#"
+									class="text-white display-5 text-underline d-flex align-items-center"
+								>
+									<i class="fa fa-envelope text-blue"></i>
+									<span class="pl-3">info@fitfam.com</span>
+								</a>
+							</li>
+							<li class="mt-4">
+								<a
+									href="#"
+									class="text-white d-flex align-items-center"
+								>
+									<i class="fa fa-phone text-blue"></i>
+									<span class="pl-3">08012345678</span>
+								</a>
+							</li>
+							<li class="mt-4">
+								<a
+									href="#"
+									class="text-white d-flex align-items-center"
+								>
+									<i class="fa fa-map-marker text-blue"></i>
+									<span class="pl-3">
+										2, Allen Avenue, Ikeja, Lagos.
+									</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-12 col-md-6 col-lg-3">
+						<p
+							class="text-white mt-5 font-weight-bold footer__heading"
+						>
+							Latest News
+						</p>
+						<ul class="header__list header__list--clean m-0 p-0">
+							<li class="mt-4">
+								<a href="#">Yoga lessons</a>
+							</li>
+							<li class="mt-4">
+								<a href="#">Body excercise</a>
+							</li>
+							<li class="mt-4">
+								<a href="#">Building muscles</a>
+							</li>
+							<li class="mt-4">
+								<a href="#">Burning calories</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-12 col-md-6 col-lg-3">
+						<p
+							class="text-white mt-5 font-weight-bold footer__heading"
+						>
+							Newsletter
+						</p>
+						<p class="text-white">
+							Subscribe to our newsletter<br />
+							and connect us on all social media platforms
+						</p>
+						<form class="footer__form">
+							<div class="form-group d-flex align-items-center">
+								<input
+									type="text"
+									class="form-control"
+									placeholder="Subscribe here"
+								/>
+								<button
+									class="btn d-flex justify-content-center align-items-center text-center"
+									aria-label="subscribe"
+								>
+									<img
+										src="../homepage/img/right-arrow.svg"
+										alt="right-arrow"
+									/>
+								</button>
+							</div>
+						</form>
+						<div
+							class="footer__social pt-3 d-flex align-items-center justify-content-between"
+						>
+							<a href="#">
+								<i class="fa fa-facebook"></i>
+							</a>
+							<a href="#">
+								<i class="fa fa-instagram"></i>
+							</a>
+							<a href="#">
+								<i class="fa fa-twitter"></i>
+							</a>
+							<a href="#">
+								<i class="fa fa-youtube"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div
+					class="container d-flex mt-5 align-items-center justify-content-between mx-auto"
+				>
+					<div class="footer__inner w-100 pt-3 row">
+						<span class="col-12 col-md-4 text-center text-md-left">
+							<img
+								width="150"
+								src="../homepage/img/logo.svg"
+								alt="fitfam"
+							/>
+						</span>
+						<div
+							class="text-white col-12 col-md-6 text-center text-md-left mt-5 mt-md-3"
+						>
+							FITFAM &copy; 2020. All Rights Reserved.
+							<stron>Terms of use</stron> and
+							<strong>Privacy Policy</strong>
+						</div>
+						<div
+							class="col-12 col-md-2 text-center text-md-right mt-5 mt-md-3"
+						>
+							<button
+								class="footer__button bg-blue btn text-white"
+								aria-label="scroll back up"
+							>
+								<i class="fa fa-chevron-up"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
 
-    <div class="mt-5">
-        <div
-            class="container d-flex flex-column align-items-center justify-content-center mx-auto"
-        >
-            <h1 class="header__title text-white">
-                Love yourself enough to work harder
-            </h1>
-            <p class="header__subtitle text-warning">
-                Get into that groove
-            </p>
-            <button class="header__button">
-                start now
-            </button>
-        </div>
-    </div>
-</div>
-</header>
-  <body>
-    
-    
-    <section class="trainer">
-      <div class="container text-center">
-        <h2 class="py-3">Meet Our Trainers</h2>
-        <p class="p1">We have a team commited to your growth</p>
-        <div class="row">
-          <div class="col-lg-4">
-          
-            <img src="./img/fit1.png" class="img-fluid mb-4" alt="">
-            <div class="img-text">
-            <h5>Bobby Jones</h5>
-            <small>Cardio Trainer</small>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <img src="./img/fit3.png" class="img-fluid mb-4" alt="">
-            <h5>Lea TownSend</h5>
-            <small>Crossfit Trainer</small>
-          </div>
-          <div class="col-lg-4">
-            <img src="./img/fit4.png" class="img-fluid mb-4" alt="">
-            <h5>Mark Phillips</h5>
-            <small>Muscle Trainer</small>
-          </div>
-          <div class="col-lg-4">
-            <img src="./img/fit2.png" class="img-fluid mb-4" alt="">
-            <h5>Sandra White</h5>
-            <small>Yoga Trainer</small>
-          </div>
-          <div class="col-lg-4">
-            <img src="./img/fit5.png" class="img-fluid mb-4" alt="">
-            <h5>Sammuel Tom</h5>
-            <small>Dance Trainer</small>
-          </div>
-          <div class="col-lg-4">
-            <img src="./img/fit6.png" class="img-fluid mb-4" alt="">
-            <h5>Melissa Angryville</h5>
-            <small>Cardio Trainer</small>
-          </div>
-          
-          
-        </div>
-      </div>
-    </section>
-
-    <div class="container-full">
-      <footer class="footer container-fluid">
-              <div class="row">
-                  <div class="col-sm-3">
-                  <p class="text-white mt-5 font-weight-bold footer__heading">
-                      Quick links
-                  </p>
-                  <ul class="header__list header__list--clean m-0 p-0">
-                      <li class="mt-4">
-                          <a href="/">Home</a>
-                      </li>
-                      <li class="mt-4">
-                          <a href="/trainers">Trainers</a>
-                      </li>
-                      <li class="mt-4">
-                          <a href="/about">About</a>
-                      </li>
-                      <li class="mt-4">
-                          <a href="/blog">Blog</a>
-                      </li>
-                      <li class="mt-4">
-                          <a href="/classes">Classes</a>
-                      </li>
-                      <li class="mt-4">
-                          <a href="/contact">Contact</a>
-                      </li>
-                  </ul>
-              </div>
-              <div class="text-left col-sm-3">
-                  <p class="text-white mt-5 font-weight-bold footer__heading">
-                      FIND Us
-                  </p>
-                  <ul
-                      class="header__list header__list--clean py-3 d-flex flex-column m-0 p-0"
-                  >
-                      <li class="mt-4">
-                          <a
-                              href="#"
-                              class="text-white display-5 text-underline d-flex align-items-center"
-                          >
-                              <i class="fa fa-envelope text-blue"></i>
-                              <span class="pl-3">info@fitfam.com</span>
-                          </a>
-                      </li>
-                      <li class="mt-4">
-                          <a
-                              href="#"
-                              class="text-white d-flex align-items-center"
-                          >
-                              <i class="fa fa-phone text-blue"></i>
-                              <span class="pl-3">08012345678</span>
-                          </a>
-                      </li>
-                      <li class="mt-4">
-                          <a
-                              href="#"
-                              class="text-white d-flex align-items-center"
-                          >
-                              <i class="fa fa-map-marker text-blue"></i>
-                              <span class="pl-3">
-                                  2, Allen Avenue, Ikeja, Lagos.
-                              </span>
-                          </a>
-                      </li>
-                  </ul>
-              </div>
-              <div class="col-sm-3">
-                  <p class="text-white mt-5 font-weight-bold footer__heading col-sm-3">
-                      Latest News
-                  </p>
-                  <ul class="header__list header__list--clean m-0 p-0">
-                      <li class="mt-4">
-                          <a href="#">Yoga lessons</a>
-                      </li>
-                      <li class="mt-4">
-                          <a href="#">Body excercise</a>
-                      </li>
-                      <li class="mt-4">
-                          <a href="#">Building muscles</a>
-                      </li>
-                      <li class="mt-4">
-                          <a href="#">Burning calories</a>
-                      </li>
-                  </ul>
-              </div>
-              <div class="col-sm-3">
-                  <p class="text-white mt-5 font-weight-bold footer__heading">
-                      Newsletter
-                  </p>
-                  <p class="text-white">
-                      Subscribe to our newsletter<br />
-                      and connect us on all social media platforms
-                  </p>
-                  <form class="footer__form">
-                      <div class="form-group d-flex align-items-center">
-                          <input
-                              type="text"
-                              class="form-control"
-                              placeholder="Subscribe here"
-                          />
-                          <button
-                              class="btn d-flex justify-content-center align-items-center text-center"
-                              aria-label="subscribe"
-                          >
-                             <!-- <img
-                                  src="./img/right-arrow.png"
-                                  alt="right-arrow"
-                              />-->
-                              <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                          </button>
-                      </div>
-                  </form>
-                  <div
-                      class="footer__social pt-3 d-flex align-items-center justify-content-between col-auto"
-                  >
-                      <a href="#">
-                          <i class="fa fa-facebook"></i>
-                      </a>
-                      <a href="#">
-                          <i class="fa fa-instagram"></i>
-                      </a>
-                      <a href="#">
-                          <i class="fa fa-twitter"></i>
-                      </a>
-                      <a href="#">
-                          <i class="fa fa-youtube"></i>
-                      </a>
-                  </div>
-              </div>
-          </div>
-              <div>
-                  <span class="mb-0 pb-0">
-                      <img width="150" src="./img/logo.png" alt="fitfam" class="float-left"/>
-                  </span>
-                  <p class="text-white col-auto mx-auto d-block">
-                      FITFAM &copy; 2020. All Rights Reserved.
-                      <stron>Terms of use</stron> and
-                      <strong>Privacy Policy</strong>
-                  </p>
-                  <button
-                      class="footer__button bg-blue text-white float-right"
-                      aria-label="scroll back up"
-                  >
-                      <i class="fa fa-chevron-up"></i>
-                  </button>
-              </div>
-          </div>
-      </footer>
-
-   
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  </body>
+		<script
+			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+			integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+			crossorigin="anonymous"
+		></script>
+	</body>
 </html>
-
