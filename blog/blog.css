@@ -1,0 +1,145 @@
+body, 
+html {
+	height: 100%;
+	margin: 0;
+}
+
+.container {
+    position: relative;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.text-blue {
+	color: var(--ff-blue);
+}
+
+.bg-blue {
+	background-color: var(--ff-blue);
+}
+
+.bg {
+	background-image:url('../img/header-man.png') !important;
+	height: 50%;
+	min-height: 380px;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 150vh;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 2;
+}
+
+.header__inner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	width: 100%;
+	height: 100px;
+}
+
+.header__list {
+	list-style-type: none;
+	border-bottom: 1px solid #ffffff;
+}
+
+.header__list--clean {
+	border: 0;
+}
+.header__list--clean a {
+	color: #ffffff;
+	font-size: 1.1rem;
+}
+.header__list--clean a:hover {
+	color: var(--ff-yellow);
+}
+
+.header__list--clean a.active {
+	color: var(--ff-yellow);
+}
+
+.header__list-item i {
+	font-size: 1.3rem;
+}
+
+.header__list-item span {
+	font-size: 0.8rem;
+}
+
+.header__title {
+	margin-top: 10rem;
+	font-size: 3rem;
+}
+
+.bottom-under {
+    text-decoration: underline;
+    text-decoration-color: var(--ff-yellow);
+}
+
+/* footer */
+.footer {
+	background-color: var(--ff-gray);
+	width:100%;
+	position: absolute;
+}
+.foot{
+	height: 175px;
+}
+.footer__heading {
+	font-size: 1.9rem;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.footer__form input {
+	border-top-left-radius: 1rem;
+	border-bottom-left-radius: 1rem;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	padding: 1.5rem 1rem;
+	height: 50px;
+}
+
+.footer__form button {
+	border-top-right-radius: 1rem;
+	border-bottom-right-radius: 1rem;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	padding: 1.5rem 1rem;
+	height: 50px;
+	background-color: var(--ff-blue);
+	width: 54px;
+}
+
+.footer__social a , .body__social a {
+	padding: 0.5rem;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #000000;
+	background-color: var(--ff-blue);
+	border-radius: 50%;
+	font-size: 1.2rem;
+}
+
+.footer__inner {
+	border-top: 1px solid #ffffff;
+}
