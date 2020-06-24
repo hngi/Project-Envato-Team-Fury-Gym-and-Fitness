@@ -1,0 +1,74 @@
+.gallery-block {
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.gallery-block .heading {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.gallery-block .heading h2 {
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    font-size: 1.4rem;
+}
+
+.gallery-block.compact-gallery .item {
+    overflow: hidden;
+    margin-bottom: 0;
+    margin-top: 60px;
+    opacity: 1;
+}
+
+.gallery-block.compact-gallery .item .images {
+    transition: 0.8 ease;
+}
+
+.gallery-block.compact-gallery .item.info {
+    position: relative;
+    display: inline-block;
+}
+
+.gallery-block.compact-gallery .item .description {
+    display: grid;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    padding: 20px;
+    font-size: 17px;
+    line-height: 10px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 60px;
+    opacity: 1;
+    color: #fff;
+    transition: 0.8s ease;
+    text-align: center;
+    }
+
+.gallery-block.compact-gallery .item .description .description-heading {
+    font-size:0.8em;
+    font-weight: bold;
+}
+
+.gallery-block.compact-gallery .item .description .description-body {
+    font-size: 0.8em;
+    margin-top: 10px;
+    font-weight: 300px;
+}
+
+.gallery-block.compact-gallery .item .description .description-pay {
+    color: #e6e61c;
+    font-weight: 300px;
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+
+small {
+    color:gray;
+    font-weight: bold;
+}
