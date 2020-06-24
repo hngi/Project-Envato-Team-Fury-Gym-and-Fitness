@@ -24,12 +24,13 @@ a:hover {
 	background-color: var(--ff-blue);
 }
 
-.header-image {
-	background-image:url('../img/header-man.png');
-	height: 70%;
-	background-repeat: no-repeat;
-	background-size: cover;
+.bg {
+	background-image:url('../img/header-man.png') !important;
+	height: 50%;
+	min-height: 380px;
 	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header::before {
