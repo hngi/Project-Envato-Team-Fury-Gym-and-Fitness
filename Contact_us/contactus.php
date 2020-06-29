@@ -23,7 +23,7 @@ if(isset($_POST['Send'])) {
     echo "Message cannot be empty."; die();
   }
 
-  $recipient = "okerekenina@gmail.com";
+  $recipient = "enter email address here";
   $mailheader = "From: ".$mailFrom;
   $content = "You have received an email from ".$name.".\n\n".$message;
 
